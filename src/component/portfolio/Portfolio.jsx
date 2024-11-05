@@ -14,34 +14,34 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src="/country.png" alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>this is a javascript enabled site that gives information about countries</h3>
           <div className="portfolio__item-cta">
-         <a href="http://github.com">Github</a>
-         <a href="http://dribble.com/Alien_pixels" className='btn btn-primary' target='_blank'>Live Demo</a>
+         <a href="https://okechukwu-okolie.github.io/mapOfCountries/">Github</a>
+         <a href="https://okechukwu-okolie.github.io/mapOfCountries/" className='btn btn-primary' target='_blank'>Live Demo</a>
          </div>
 
         </article>
 
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src="/country.png" alt="" />
+            <img src="/kuda.png" alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>This is react based part clone of kuda landing page</h3>
           <div className="portfolio__item-cta">
-         <a href="http://github.com">Github</a>
-         <a href="http://dribble.com/Alien_pixels" className='btn btn-primary' target='_blank'>Live Demo</a>
+         <a href="https://kuda-landing-umuo.vercel.app/">Github</a>
+         <a href="https://kuda-landing-umuo.vercel.app/" className='btn btn-primary' target='_blank'>Live Demo</a>
          </div>
 
         </article>
 
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src="/country.png" alt="" />
+            <img src="/furniro.png" alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
           <div className="portfolio__item-cta">
-         <a href="http://github.com">Github</a>
-         <a href="http://dribble.com/Alien_pixels" className='btn btn-primary' target='_blank'>Live Demo</a>
+         <a href="https://okechukwu-okolie.github.io/furniro-furniture-website/">Github</a>
+         <a href="https://okechukwu-okolie.github.io/furniro-furniture-website/" className='btn btn-primary' target='_blank'>Live Demo</a>
          </div>
 
         </article>
