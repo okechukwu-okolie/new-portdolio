@@ -10,6 +10,9 @@
 }
 .aboutHeading{
     text-align: center;
+    h2{
+        color: #4db5ff;
+    }
 }
 .about__me{
     width: 50%;

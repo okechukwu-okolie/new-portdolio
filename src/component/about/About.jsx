@@ -18,13 +18,13 @@
        <div className="about__cards">
           <article className="about__card">
           <FaAward className='about__icon'/>
-            <h5>Experience</h5>
+             <a href="#experience"><h5>Experience</h5></a>
             <small>9months+</small>
           </article>
 
           <article className="about__card">
           <MdOutlineWorkOutline className='about__icon'/>
-            <h5>Projects</h5>
+            <a href="#portfolio"><h5>Projects</h5></a>
             <small>5+</small>
           </article>
 

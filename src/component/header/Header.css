@@ -25,7 +25,9 @@ header{
     gap: 9.2rem;
     justify-content: center;
 }
-
+.cta:hover{
+    color:#4DB5FF;
+}
 /* **************socials */
 .header__socials{
     display: flex;
