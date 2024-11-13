@@ -5,12 +5,13 @@
 .about__container{
     display: grid;
     grid-template-columns: 50% 50%;
-    gap: 15%;
+    gap: 27%;
     
 }
 .aboutHeading{
     text-align: center;
     h2{
+        
         color: #4db5ff;
     }
 }
@@ -18,10 +19,6 @@
     width: 50%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
-    background: linear-gradient(45deg,
-                                transparent,
-                                var(--color-primary),
-                                );
     display: grid;
     place-items: center;
 }
@@ -30,7 +27,7 @@
     border-radius: 2rem;
     overflow: hidden;
     /* transform: rotate(10deg); */
-    transition: var(--transition);
+    /* transition: var(--transition); */
 }
 .about__me-img:hover{
     transform: rotate(0);
@@ -38,7 +35,7 @@
 
 .about__cards{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(4,1fr);
     gap: 1.5rem;
 }
 .about__card{
@@ -83,7 +80,7 @@
     
 }
 .btn{
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 
 

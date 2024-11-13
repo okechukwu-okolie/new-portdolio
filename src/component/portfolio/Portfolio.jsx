@@ -14,7 +14,7 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src="/country.png" alt="" />
           </div>
-          <h3>this is a javascript enabled site that gives information about countries</h3>
+          <h3>This is a javascript enabled site that gives information about countries</h3>
           <div className="portfolio__item-cta">
          <a href="https://okechukwu-okolie.github.io/mapOfCountries/">Github</a>
          <a href="https://okechukwu-okolie.github.io/mapOfCountries/" className='btn btn-primary' target='_blank'>Live Demo</a>

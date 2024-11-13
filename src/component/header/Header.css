@@ -20,13 +20,25 @@ header{
 
 /* *******************CTA */
 .cta{
-    margin-top: 2.5rem;
+    margin-top: 2rem;
     display: flex;
     gap: 9.2rem;
     justify-content: center;
 }
 .cta:hover{
     color:#4DB5FF;
+    background-color: transparent;
+}
+ .btn:hover{
+    border: #4DB5FF solid 1px;
+}
+.btn{
+    margin-top: 10px;
+    /* padding: 13px 20px; */
+    border-radius: 10px;
+}
+.btn:hover{
+    color: grey;
 }
 /* **************socials */
 .header__socials{
@@ -48,8 +60,6 @@ header{
 
 /* **************image */
 .me{
-    /* background: var(--color-primary); */
-    /* background: linear-gradient(var(--color-primary),transparent); */
     width: 23rem;
     height: 35rem;
     position: absolute;
@@ -86,14 +96,11 @@ header{
     justify-content: center;
 }
 .me{
-    /* background: var(--color-primary); */
-    /* background: linear-gradient(var(--color-primary),transparent); */
     width: 30rem;
     height: 45rem;
     position: absolute;
     left: calc(50% - 17rem);
     top:10px;
-    /* z-index: -1; */
     margin-top: 8rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
@@ -129,14 +136,17 @@ header{
     display: none;
 }
 .header__container{
+    /* background-color: red; */
+    margin-top: -50px;
     text-align: center;
     height: 100%;
     position: relative;
     line-height: 1;
-    margin-top: -90px;
-    /* padding-right: 150px; */
+    
+    
     h5{
         font-size: x-large;
+        margin-bottom: 10px;
     }
     h1{
         font-size: 50px;
@@ -144,11 +154,15 @@ header{
     }
 }
 .cta{
-    margin-top: 2.5rem;
+    margin-top: 0.2rem;
     display: flex;
     /* justify-content: center; */
     gap: 5.2rem;
     justify-content: center;
     width: fit-content;
+}
+.cta:hover{
+    color:#4DB5FF;
+    background-color: transparent;
 }
 }

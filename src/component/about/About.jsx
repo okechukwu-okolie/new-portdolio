@@ -45,7 +45,8 @@
         maximise users interaction.
         <br />
         I am objective centered, goal driven and a lover of good music and food.
-      
+      <br />
+      <br />
       <br />
       <a href="#contact" className='btn btn-primary'>More about Me</a>
         </p>
