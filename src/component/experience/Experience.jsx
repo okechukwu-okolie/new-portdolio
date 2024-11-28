@@ -6,7 +6,7 @@ import { FaCircleCheck } from "react-icons/fa6";
 const Experience = () => {
   return (
     <section id='experience'>
-      <div className='title'> <h5>What Skills I Have</h5>
+      <div className='title'> <h5>My Skill Set</h5>
       <h2>My Experience</h2></div>
      
 

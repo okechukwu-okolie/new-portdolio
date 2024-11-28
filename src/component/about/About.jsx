@@ -47,8 +47,8 @@
         I am objective centered, goal driven and a lover of good music and food.
       <br />
       <br />
-      <br />
-      <a href="#contact" className='btn btn-primary'>More about Me</a>
+      
+      <a href="#contact" className='btn btn-primary bout-btn'>More about Me</a>
         </p>
          </div>
          <div className="about__me">

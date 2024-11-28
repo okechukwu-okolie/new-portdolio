@@ -39,8 +39,8 @@ const Contact = () => {
     <article className="contact_option">
     <MdEmail className='contact__option-icon' />
       <h4>Email</h4>
-      <h5>samuelokolie2012@gmail.com</h5>
-      <a href="mailto:dummysamuelokolie2012@gmail.com" target='_blank'> Send a message</a>
+      <h5>okechukwu.okolie.2023@gmail.com</h5>
+      <a href="mailto:dummyokechukwu.okolie.2023@gmail.com" target='_blank'> Send a message</a>
     </article>
 
     
@@ -55,10 +55,12 @@ const Contact = () => {
         {/* end of contact options */}
 
         <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name='name' placeholder='Your Full Name here' required />
-          <input type="email" name='nemail' placeholder='Your Email here' required />
+          <input type="text" name='name' placeholder='Your Full Name here' required className='contactInput'/>
+          <input type="email" name='email' placeholder='Your Email here' required className='contactInput'/>
           <textarea name="message" rows='7' placeholder='Your message' id="" required></textarea>
-          <button type='submit' className='btn btn-primary'> Send Message</button>
+          <div className='contactButtonDiv'>
+          <button type='submit' className='btn btn-primary send'> Send Message</button>
+          </div>
         </form>
       </div>
     </section>

@@ -1,6 +1,9 @@
 
 #about{
     padding-top: 70px;
+    p{
+        line-height: 1.8;
+    }
 }
 .about__container{
     display: grid;
@@ -23,7 +26,7 @@
     place-items: center;
 }
 .about__me img{
-    margin-top: 50px;
+    margin-top: 120px;
     border-radius: 2rem;
     overflow: hidden;
     /* transform: rotate(10deg); */
@@ -69,8 +72,9 @@
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
 }
- p{
-    /* color: red; */
+
+ /* p{
+    
     text-align: left;
     line-height: 1.15;
     font-size: 13px;
@@ -78,9 +82,10 @@
     margin-bottom: 60px;
 
     
-}
-.btn{
-    /* margin-bottom: 30px; */
+} */
+.bout-btn{
+    margin-bottom: 30px;
+    margin-top: -50px;
 }
 
 
@@ -103,6 +108,18 @@ margin: 1rem 0 1.5rem;
 /* *******************************small devices */
 
 @media (max-width:600px){
+    #about{
+        margin-top: -50px;
+    }
+    .aboutHeading{
+        margin-top: -850px;
+        margin-bottom: 5px;
+    }
+    .about__cards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
     .aboutHeading{
         margin-top: -0px;
         text-align: center;

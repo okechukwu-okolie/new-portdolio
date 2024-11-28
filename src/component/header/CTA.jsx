@@ -1,7 +1,7 @@
 
 
 import React from 'react'
-import CV from '../../assets/cv.pdf'
+import CV from '/OKOLIE-Okechukwu-Samuel-cv.pdf'
 
 const CTA = () => {
   return (

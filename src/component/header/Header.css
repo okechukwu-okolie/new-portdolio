@@ -126,11 +126,12 @@ header{
 /* ******************small devices */
 @media (max-width:600px){
     header{
-        height: 100vh;
+        /* height: 100vh; */
         padding-top:7rem ;
         line-height: 1.2;
         overflow: hidden;
-    } */
+        /* margin-bottom: 30px; */
+    } 
     
 .header__socials,.scroll__down{
     display: none;
@@ -164,5 +165,8 @@ header{
 .cta:hover{
     color:#4DB5FF;
     background-color: transparent;
+}
+.me{
+    height:400px;
 }
 }

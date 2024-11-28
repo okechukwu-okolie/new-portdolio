@@ -1,3 +1,10 @@
+#contact{
+    margin-top:190px;
+}
+.title{
+    margin-top: -80px;
+}
+
 .container.contact__container{
     width: 58%;
     display: grid;
@@ -40,6 +47,9 @@
     margin-top: 0.7rem;
     display: inline-block;
     font-size:0.8rem
+}
+.send{
+    margin-bottom: 50px;
 }
 
 /* ****************form */
@@ -95,5 +105,23 @@ input,textarea{
     .container.contact__container{
        width: var(--container-width-sm);
          
+    }
+    input,textarea{
+        width: 100%;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        background: transparent;
+        border: 2px solid var(--color-primary-variant);
+        resize: none;
+        color: var(--color-white);
+        margin-top: -15px;
+        height: 30px;
+    }
+    textarea{
+        height: 80px;
+    }
+    .contactButtonDiv{
+        display: flex;
+        justify-content: center;
     }
 }
