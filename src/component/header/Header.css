@@ -126,8 +126,8 @@ header{
 /* ******************small devices */
 @media (max-width:600px){
     header{
-        /* height: 100vh; */
-        padding-top:7rem ;
+        height: 100vh;
+        padding-top:6rem ;
         line-height: 1.2;
         overflow: hidden;
         /* margin-bottom: 30px; */
@@ -167,6 +167,6 @@ header{
     background-color: transparent;
 }
 .me{
-    height:400px;
+    height:600px;
 }
 }

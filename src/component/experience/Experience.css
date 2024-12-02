@@ -4,7 +4,7 @@
 
 .title{
     text-align: center;
-    margin-top: -80px;
+    margin-top: 20px;
     h2{
         margin-bottom: 20px;
         color: #4db5ff;
@@ -51,6 +51,10 @@ gap: 1rem;
 
 /* ***********************medium devices */
 @media(max-width:1024px){
+    #experience{
+        margin-top: 250px;
+        margin-bottom: 300px;
+    }
     .experience__container{
         grid-template-columns: 1fr;
         margin: auto;
@@ -60,11 +64,30 @@ gap: 1rem;
         width: 90%;
         padding: 1rem;
         margin: 0 auto;
-        margin-bottom: 50px;
+        margin-bottom: 250px;
     }
     .experience__content{
         padding:1rem;
     }
+
+
+    /* .title{
+        margin-top: -30px;
+     
+    }
+    
+    .container{
+        margin-top: -30px;
+    }
+    .experience__container{
+        gap: .5rem;
+        
+    }
+    .experience__container > div{
+        width: 95%;
+        padding: 1rem .2rem;
+        margin-bottom: 30px;
+    } */
 }
 
 

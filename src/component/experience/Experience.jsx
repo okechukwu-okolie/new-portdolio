@@ -6,8 +6,10 @@ import { FaCircleCheck } from "react-icons/fa6";
 const Experience = () => {
   return (
     <section id='experience'>
-      <div className='title'> <h5>My Skill Set</h5>
-      <h2>My Experience</h2></div>
+      <div className='title'>
+            <h5>My Skill Set</h5>
+            <h2>My Experience</h2>
+      </div>
      
 
       <div className='container experience__container'>
@@ -100,18 +102,6 @@ const Experience = () => {
              <small className='text-light'>Beginner</small>
              </div>
           </article>
-
-          {/* <article className="experience__details">
-              <FaCircleCheck />
-              <h4>TAILWIND</h4>
-              <small className='text-light'>Beginner</small>
-          </article> */}
-
-          {/* <article className="experience__details">
-              <FaCircleCheck />
-              <h4>TYPESCRIPT</h4>
-              <small className='text-light'>Beginner</small>
-          </article> */}
           </div>
         </div>
       </div>
